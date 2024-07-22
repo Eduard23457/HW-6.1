@@ -52,7 +52,6 @@ public class Main {
         double percent = 0.01;
         for (int k = 1; k < 13; k = k + 1) {
             sun = (sun + salary2) * (1 + percent);
-            sun = sun + sun / 100;
             System.out.println("Месяц, " + k + " сумма накоплений  равна " + sun + " рублей");
         }
 
